@@ -1,0 +1,21 @@
+#order-form{
+    border: 1px solid teal;
+    width: 400px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+input{
+    width: 300px;
+    display: block;
+    padding: 10px;
+    margin: 15px 50px;
+}
+
+#confirm{
+    background-color: black;
+    color: white;
+    width: 325px;
+  
+}

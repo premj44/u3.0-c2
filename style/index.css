@@ -1,0 +1,42 @@
+#navbar{
+    border: 1px solid teal;
+    display: flex;
+    justify-content: end;
+    gap: 25px;
+    font-size: 20px;
+    padding: 10px;
+    color: teal;
+}
+a{
+    text-decoration: none;
+    color: teal;
+}
+
+#menu{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 21px;
+    width: 85%;
+    margin: 5% auto;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+
+}
+.box{
+    width: 250px;
+    border: 1px solid teal;
+    padding: 25px 5px;
+    text-align: center;
+    display: block;
+}
+
+#add_to_bucket{
+    background-color: black;
+    color: white;
+    padding: 8px 25px;
+}

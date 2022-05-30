@@ -1,0 +1,46 @@
+#bucket{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    width: 85%;
+    margin: 5% auto;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+
+}
+.box{
+    width: 250px;
+    border: 1px solid teal;
+    padding: 20px 5px;
+    text-align: center;
+    display: block;
+}
+
+#total_amount{
+    border: 1px solid teal;
+    width: 50px;
+    padding: 15px 20px;
+}
+
+#remove_coffee{
+    background-color: black;
+    color: white;
+    padding: 8px 25px;
+}
+#confirm_checkout{
+   
+    background-color: black;
+    color: white;
+    padding: 8px 25px;
+}
+
+a{
+    
+    text-decoration: none;
+    color: white;
+}
